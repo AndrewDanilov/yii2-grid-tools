@@ -1,17 +1,15 @@
 <?php
-
-/**
- * Use this action column class in action grid components
- * instead of standard \yii\grid\ActionColumn
- * for replace bootstrap icons to fontawesome.
- */
-
 namespace andrewdanilov\gridtools;
 
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
+/**
+ * Use this action column class in action grid components
+ * instead of standard \yii\grid\ActionColumn
+ * for replace bootstrap icons to fontawesome.
+ */
 class FontawesomeActionColumn extends \yii\grid\ActionColumn
 {
 	/**

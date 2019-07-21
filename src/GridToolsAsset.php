@@ -1,6 +1,5 @@
 <?php
-
-namespace andrewdanilov\adminpanel;
+namespace andrewdanilov\gridtools;
 
 use yii\web\AssetBundle;
 
