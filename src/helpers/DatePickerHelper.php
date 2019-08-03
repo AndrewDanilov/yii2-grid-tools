@@ -22,12 +22,12 @@ class DatePickerHelper
 		];
 	}
 
-	public static function defaultFilterOptions($searchModel)
+	public static function defaultFilterOptions($searchModel, $attribute)
 	{
 		return [
 			'model' => $searchModel,
-			'attribute' => 'created_at',
-			'language' => 'ru',
+			'attribute' => $attribute,
+			'language' => Yii::$app->language,
 			'template' => '{input}{addon}',
 			'clientOptions' => [
 				'autoclose' => true,
